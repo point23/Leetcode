@@ -156,6 +156,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CodeBase\FindKthLargest.cpp" />
     <ClCompile Include="Leetcode.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
@@ -165,12 +166,14 @@
     </ClCompile>
     <ClCompile Include="CodeBase\RemoveDuplicates.cpp" />
     <ClCompile Include="CodeBase\SortColors.cpp" />
+    <ClCompile Include="Test\FindKthLargestTest.cpp" />
     <ClCompile Include="Test\RemoveDuplicatesTest.cpp" />
     <ClCompile Include="CodeBase\Sandbox.cpp" />
     <ClCompile Include="Test\SandboxTest.cpp" />
     <ClCompile Include="Test\SortColorsTest.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CodeBase\FindKthLargest.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="CodeBase\RemoveDuplicates.h" />
     <ClInclude Include="CodeBase\Sandbox.h" />

@@ -1,5 +1,6 @@
+#include "stdlib.h"
 #include <vector>
-using namespace std;
+using namespace::std;
 
 class SortColors
 {
