@@ -38,7 +38,7 @@ namespace UnitTest
 
 			// result: { 2, 2 }
 			solution.process(nums);
-			Assert::AreEqual(0, nums[0]);
+			Assert::AreEqual(2, nums[0]);
 		}
 	};
 }

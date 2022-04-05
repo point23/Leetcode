@@ -45,6 +45,12 @@
     <ClCompile Include="Test\FindKthLargestTest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CodeBase\FindMaxAverage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\FindMaxAverageTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -60,6 +66,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="CodeBase\FindKthLargest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CodeBase\FindMaxAverage.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
